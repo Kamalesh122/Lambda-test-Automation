@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assignment for lambdaTest" thread-count="10" parallel="classes">
+	<test name="Assignment - Test_1">
+		<classes>
+			<class name="Lambda.test.Automation.AutomationTask">
+				<methods>
+					<include name="test001"></include>
+				</methods> 
+			</class>
+			<class name="Lambda.test.Automation.MacBrowserAutomation">
+				<methods>
+					<include name="test002"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
